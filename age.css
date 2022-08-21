@@ -1,0 +1,93 @@
+
+input {
+    
+    width: 75px;  
+     height: 20px;
+   
+   }
+
+   div  input::placeholder {
+       
+       text-align: center;
+       color: rgb(38, 0, 255);
+   }
+   
+   .F{
+       max-width: 500px auto;
+     
+       height: 400px;
+  
+   border: gray 3px solid;
+   border:0 auto;
+   
+   }
+   
+   div input {
+      
+    border-radius: 15px;
+     box-shadow: 0 blue;  
+   border-color: black;
+   text-align: center;
+   
+   }
+   .center_age
+   {
+     text-align: center;
+   }
+  
+   /*7ajme input*/
+   @media screen and (max-width:1500px){   .input_age{    margin-right: 25%;  }  }
+   @media screen and (max-width:1400px){   .input_age{    margin-right: 24%;  }  }
+   @media screen and (max-width:1300px){   .input_age{    margin-right: 23%;  }  }
+   @media screen and (max-width:1200px){   .input_age{    margin-right: 22%;  }  }
+   @media screen and (max-width:1100px){   .input_age{    margin-right: 21%;  }  }
+   @media screen and (max-width:1000px){   .input_age{    margin-right: 20%;  }  }
+   @media screen and (max-width:900px){    .input_age{    margin-right: 19%;  }  }
+   @media screen and (max-width:800px){    .input_age{    margin-right: 18%;  }  }
+   @media screen and (max-width:700px){    .input_age{    margin-right: 17%;  }  }
+   @media screen and (max-width:600px){    .input_age{    margin-right: 16%;  }  }
+   @media screen and (max-width:500px){    .input_age{    margin-right: 12%;  }  }
+   @media screen and (max-width:400px){    .input_age{    margin-right: 9%;  }  }
+   @media screen and (max-width:360px){    .input_age{    margin-right: 7%;  }  }
+   @media screen and (max-width:318px){    .input_age{    margin-right: 5%;  }   }
+   @media screen and (max-width:302px){    .input_age{    margin-right: 0%;  } }
+   
+   input:focus
+   {
+       
+       box-shadow: 0 0 20px 0 aqua;
+    transition:.5s;
+    color: #098a00;
+    text-align: center;
+   }
+   
+   
+   
+    .age{
+        
+      margin-top: 20px;
+      width: 100%;  
+        /* vere peva drawa ok pash zheba */
+    }
+
+    
+ #res {
+ 
+     
+    font-family: arial;
+    
+    text-align: right;
+    
+    margin-top: 25px;
+    margin-right: 5px;
+    
+  }
+ h4{
+     
+     text-align: center;
+ }
+ #tarix{
+ 
+  font-size: xx-large; 
+  text-align: right;
+ }
